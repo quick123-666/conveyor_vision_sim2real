@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project artifacts (PoC outputs that bloat the repo)
+synth_demo_*/
+runs/
+checkpoints/
+*.zip
+*.pkl
+*.onnx
+*.engine
+*.h5
+
+# Logs
+*.log
+
+# Generated datasets (too large for git)
+data/synthetic_v*/
+data/datasets/
+data/*.tar.gz
+
+# Caches
+.cache/
+__pycache__/
+.mujoco/
