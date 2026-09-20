@@ -1,5 +1,7 @@
 # Conveyor Vision Sim-to-Real — 工业视觉缺陷检测
 
+> **[English](#)** · [中文](README.zh-CN.md)
+
 > **Industrial surface defect detection pipeline** that uses **simulation-to-real (sim-to-real)** transfer learning to train a vision inspection model purely in software, then deploys to real conveyor hardware with only light verification + continuous iteration.
 
 ![Architecture](diagram_1_arch.png)
